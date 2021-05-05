@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.block1{
+    height: 100vh;
+    background-color: crimson;
+}
+
+.block2{
+    height: 90vh;
+    background-color: darkblue;
+}
+.block3{
+    height: 100vh;
+    background-color: darkolivegreen;
+}
+.block4{
+    height: 80vh;
+    background-color: darkslategrey;
+}
+.block5{
+    height: 70vh;
+    background-color: forestgreen;
+}
+.block6{
+    height: 70vh;
+    background-color: goldenrod;
+}
+
+@media only screen and (min-width: 600px){
+
+}
+
+@media only screen and (min-width: 768px){
+    
+}
+@media only screen and (min-width: 992px){
+
+}
+@media only screen and (min-width: 1200px){
+    .block1{
+        height: 100vh;
+    }
+    
+    .block2{
+        height: 60vh;
+    }
+    .block3{
+        height: 100vh;
+    }
+    .block4{
+        height: 50vh;
+    }
+    .block5{
+        height: 70vh;
+    }
+    .block6{
+        height: 50vh;
+
+    }
+
+}
